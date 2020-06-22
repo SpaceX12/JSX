@@ -1,0 +1,36 @@
+#head{
+    color:whitesmoke;
+    margin-left: 30px;
+    background-color:black;
+    margin-top:0px;
+}
+#head a{
+    margin-left: 150px;
+}
+body{
+    background-color:grey;
+}
+.writing{
+    color:rgb(255, 159, 5);
+    background-color: firebrick;
+}
+#Q{
+    position: relative;
+    text-align: center;
+}
+#Q p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    color:blue;
+    opacity:0;
+}
+#Q:hover p{
+    opacity:1;
+}
+#Q:hover img{
+    width: 250px;
+    height: 250px;
+    filter:blur(30px);
+}
